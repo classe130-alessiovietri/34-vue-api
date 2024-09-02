@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Template HTML CSS Vue</title>
+        <title>34 Vue API</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
@@ -12,35 +12,24 @@
 
         <div id="app">
 
-            <!-- header -->
-            <header>
-                <div class="container">
-                    HEADER
-                </div>
-            </header>
-            <!-- /header -->
-
             <!-- main -->
             <main>
                 <div class="container">
                     <h1>
                         {{ message }}
                     </h1>
+
+                    <h2>
+                        L'email presa dall'API di Boolean è: {{ email }}
+                    </h2>
                 </div>
             </main>
             <!-- /main -->
 
-            <!-- footer -->
-            <footer>
-                <div class="container">
-                    FOOTER
-                </div>
-            </footer>
-            <!-- /footer -->
-
         </div>
 
         <!-- JS -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
 
